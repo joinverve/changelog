@@ -16,7 +16,7 @@ export const NotionRender = async ({
   className,
 }: {
   blocks: any;
-  className: any;
+  className?: any;
 }) => {
   const renderer = new NotionRenderer({
     client: notion,
